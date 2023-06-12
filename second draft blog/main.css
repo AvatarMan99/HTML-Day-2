@@ -1,0 +1,76 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+.nav {
+    background-color:#154747;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Monaco', 'Lucida Console';
+    font-size: 30px;
+    padding: 20;
+    float: right;
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+.contact {
+    margin: 350px 750px;
+    font-family: 'Nova Mono', monospace;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 30px 10px;
+    border: 5px solid black;
+}
+.contact .heading, .contentSection {
+    display: block;
+    padding: 20px 10px;
+    padding-right: 1;
+}
+.contact .heading {
+    font-family: 'Nova Mono', monospace;
+}
+.contact .contentSection {
+    font-family: 'Nova Mono', monospace;
+}
+.contentSection input{
+    font-family: 'Nova Mono', monospace;
+    height: 30px;
+    font-size: 20px;
+}
+.contact .first, .last, .email, .submit {
+    padding: 15px;
+    font-size: 20px;
+}
+a {
+    color: #ffffff;
+}
+.nav li {
+    display: inline;
+    color: #ffffff;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Lucida Console', "Courier New", monospace;
+    font-size: 150px;
+    font-weight: bold;
+    padding-top: 150px;
+}
+p {
+    color: #000000;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    padding-top: 10px;
+}
+body{
+    background-image: url("images/nosult.jpg");
+}
